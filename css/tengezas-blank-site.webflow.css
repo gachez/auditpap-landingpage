@@ -222,6 +222,8 @@
 .creator-message {
   border-radius: 24px;
   background-color: #fff;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .paragraph-3 {
@@ -238,6 +240,14 @@
   border-radius: 24px;
   color: #2b8280;
   line-height: 33px;
+}
+
+.signature{
+  position: absolute;
+  bottom: 30px;
+  display: flex; 
+  flex-direction: row;
+  left: 30px;
 }
 
 .footer {
@@ -345,17 +355,20 @@
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
+  width: fit-content;
 }
 
 .link-9 {
   padding-left: 48px;
   color: #4c4c4c;
   font-size: 16px;
+  width: fit-content;
   font-weight: 600;
   text-decoration: none;
 }
 
 .link-10 {
+  width: fit-content;
   font-size: 16px;
   padding-left: 48px;
   color: #4c4c4c;
