@@ -93,7 +93,6 @@
 
 .description {
   width: 50%;
-  margin-left: 48px;
 }
 
 .transaction-image {
@@ -1392,6 +1391,7 @@
     align-items: center;
   }
   .link-8 {
+    width: 100%;
     margin-top: 24px;
     margin-right: auto;
     margin-left: auto;
