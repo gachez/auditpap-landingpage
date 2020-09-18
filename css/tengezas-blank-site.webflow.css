@@ -2,6 +2,7 @@
   position: relative;
   display: block;
   height: 100vh;
+  width: 100vw !important;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -79,6 +80,8 @@
 }
 
 .transactions-container {
+  width: 76.6%;
+  margin-left: 11.7%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -92,7 +95,7 @@
 }
 
 .description {
-  width: 50%;
+  max-width: 625px;
 }
 
 .transaction-image {
@@ -116,20 +119,25 @@
   margin-left: 43px;
 }
 
+
 .tags-container {
+  width: 76.6%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin-top: 256px;
+  margin-left: 11.7%;
+  margin-right: 11.7%;
 }
 
 .tags-img {
   width: 50%;
+  margin-right: 11.7%;
 }
 
 .tags-desc {
-  width: 50%;
+  max-width: 576px;
 }
 
 .tags-desc-text {
@@ -140,6 +148,7 @@
 }
 
 .tips-section {
+  width: 76.6%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -155,6 +164,7 @@
 .tips-description {
   width: 50%;
   margin-top: 224px;
+  max-width: 601px;
 }
 
 .paragraph-2 {
@@ -182,14 +192,20 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 256px;
+  width: 76.6%;
+  margin-left: 11.7%;
 }
 
 .profile-img {
   width: 50%;
+  max-width: 378px;
+  margin-right: 92px;
+  margin-left: 11.7%;
 }
 
 .profile-desc {
   width: 50%;
+  max-width: 628px;
 }
 
 .profile-desc-text {
@@ -219,10 +235,14 @@
 }
 
 .creator-message {
+  display: inline-block;
+  margin-left: 11.7%;
+  margin-top: 128px;
+  align-self: center;
+  width: 76.6%;
   border-radius: 24px;
   background-color: #fff;
   position: relative;
-  padding-bottom: 100px;
 }
 
 .paragraph-3 {
@@ -233,27 +253,29 @@
 }
 
 .paragraph-3.creator-message {
-  margin-top: 128px;
   padding-right: 48px;
   padding-left: 48px;
   border-radius: 24px;
   color: #2b8280;
   line-height: 33px;
+  height: fit-content;
 }
 
 .signature{
-  position: absolute;
-  bottom: 30px;
-  display: flex; 
-  flex-direction: row;
-  left: 30px;
+  position: relative;
+  bottom: 81px;
+  text-align: center;
+}
+
+#and-sig{
+  margin-right: 101px;
 }
 
 .footer {
   position: relative;
   display: flex;
   flex-direction: row;
-  width: 100%;
+  width: 100vw;
   height: 80px;
   padding-top: 32px;
 }
@@ -264,6 +286,7 @@
   color: grey;
   font-size: 16px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .instagram {
@@ -274,7 +297,7 @@
 }
 
 .links{
-  margin-left: 150px;
+  margin-left: 40%;
 }
 
 .link {
@@ -769,6 +792,10 @@
     -ms-flex-align: center;
     align-items: center;
   }
+
+  .tags-img{
+    margin-right: 0;
+  }
   .tags-desc {
     width: 100%;
     margin-top: 64px;
@@ -913,17 +940,17 @@
     text-align: center;
   }
   .links {
-    position: relative;
-    right: 120px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    max-width: 80%;
     flex-direction: row; 
     margin-top: 32px;
     margin-bottom: 48px;
     padding-right: 0px;
     padding-left: 0px;
+    margin-left: 120px;
   }
   .link-8 {
     color: #4c4c4c;
@@ -1098,19 +1125,24 @@
     width: auto;
     padding-right: 8px;
   }
+
+  .links{
+    margin-left: 10px;
+  }
+
   .instagram {
-    margin-left: 40px;
+    margin-left: 24px;
   }
   .link-8 {
-    margin-left: 40px;
+    margin-left: 24px;
   }
   .link-9 {
-    margin-left: 48px;
+    margin-left: 28px;
     padding-left: 40px;
   }
   .link-10 {
     margin-left: 0px;
-    padding-left: 40px;
+    padding-left: 24px;
   }
   .heading.title {
     font-size: 48px;
@@ -1192,6 +1224,11 @@
   .section-4 {
     margin-top: 64px;
     margin-bottom: 64px;
+  }
+  .signature{
+    width: 70%;
+    display: flex;
+    margin-left: 15%;
   }
   .paragraph-12 {
     font-size: 20px;
@@ -1295,6 +1332,12 @@
   .tags-container {
     margin-top: 156px;
   }
+
+  .tags-img{
+    width: auto;
+    max-width: 50%;
+  }
+
   .tags-desc-text {
     width: 245px;
     margin-right: auto;
@@ -1319,13 +1362,23 @@
   }
   .tips-img {
     width: auto;
-    max-width: 52%;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 50%;
   }
   .profile {
     margin-top: 156px;
   }
+  .profile-img{
+    margin-right: 11.7%;
+  }
+
+  .signature{
+    bottom: 40px;
+  }
+
+  #and-sig{
+    margin-right: 0;
+  }
+
   .profile-desc-text {
     width: 245px;
     margin-right: auto;
@@ -1355,6 +1408,7 @@
     line-height: 22px;
   }
   .footer {
+    width: 100vw;
     padding-top: 48px;
     display: flex;
     flex-direction: column;
@@ -1366,7 +1420,7 @@
   }
   .instagram {
     text-align: center;
-    margin-right: 148px;
+    width: 100%;
     margin-left: 0;
     font-size: 14px;
   }
@@ -1380,14 +1434,14 @@
     position: static;
   }
   .link-8 {
+    width: 100%;
     text-align: center;
     margin-top: 24px;
-    margin-right: 0;
-    margin-left: 0;
     font-size: 14px;
     text-align: center;
   }
   .link-9 {
+    width: 100%;
     margin-top: 24px;
     margin-right: 0;
     margin-left: 0;
@@ -1397,6 +1451,7 @@
     text-align: center;
   }
   .link-10 {
+    width: 100%;
     margin-top: 24px;
     margin-left: 0px;
     padding-left: 0px;
