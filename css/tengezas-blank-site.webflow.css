@@ -1408,6 +1408,7 @@
     line-height: 22px;
   }
   .footer {
+    height: auto;
     width: 100vw;
     padding-top: 48px;
     display: flex;
@@ -1420,7 +1421,8 @@
   }
   .instagram {
     text-align: center;
-    width: 100%;
+    flex: 1;
+    align-self: center;
     margin-left: 0;
     font-size: 14px;
   }
@@ -1430,18 +1432,20 @@
   }
   .links {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    position: static;
   }
   .link-8 {
-    width: 100%;
+    flex: 1;
+    align-self: center;
     text-align: center;
     margin-top: 24px;
     font-size: 14px;
     text-align: center;
   }
   .link-9 {
-    width: 100%;
+    flex: 1;
+    align-self: center;
     margin-top: 24px;
     margin-right: 0;
     margin-left: 0;
@@ -1587,7 +1591,7 @@
     font-size: 22px;
   }
   .paragraph-14 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 33px;
   }
   .why-we-collect {
@@ -1597,14 +1601,14 @@
     font-size: 22px;
   }
   .paragraph-15 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .text-block-11 {
     width: 100%;
     font-size: 22px;
   }
   .paragraph-16 {
-    font-size: 22px;
+    font-size: 18px;
   }
   .section-5 {
     margin-top: 48px;
@@ -1616,7 +1620,7 @@
     font-size: 22px;
   }
   .control-text {
-    font-size: 22px;
+    font-size: 18px;
   }
   .contact-us {
     margin-top: 48px;
@@ -1626,7 +1630,7 @@
     font-size: 22px;
   }
   .paragraph-17 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 33px;
   }
   .image-2 {
