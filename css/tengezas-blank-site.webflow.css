@@ -246,7 +246,7 @@
 }
 
 .paragraph-3 {
-  padding: 128px;
+  padding-bottom: 128px;
   font-size: 24px;
   line-height: 60px;
   text-align: left;
@@ -878,13 +878,12 @@
   .creator-message {
     width: 672px;
     margin-left: 20px;
+    margin-top: 64px;
     border-radius: 24px;
     text-align: left;
   }
   .paragraph-3.creator-message {
     width: fit-content;
-    margin-top: 64px;
-    padding-top: 96px;
     padding-right: 48px;
     padding-left: 48px;
     border-radius: 24px;
@@ -894,7 +893,7 @@
     width: 27%;
   }
   .instagram {
-    margin-left: 96px;
+    margin-left: 48px;
     padding-right: 0px;
     color: #4c4c4c;
     font-size: 16px;
@@ -951,6 +950,7 @@
     padding-right: 0px;
     padding-left: 0px;
     margin-left: 120px;
+    
   }
   .link-8 {
     color: #4c4c4c;
@@ -1415,13 +1415,13 @@
     flex-direction: column;
   }
   .made-in-kenya {
-    width: auto;
+    margin-left: 0;
     font-size: 14px;
     line-height: 19px;
   }
   .instagram {
     text-align: center;
-    flex: 1;
+    width: 100%;
     align-self: center;
     margin-left: 0;
     font-size: 14px;
@@ -1435,16 +1435,23 @@
     flex: 1;
     flex-direction: column;
   }
+
+  #links{
+    width: 100%;
+    margin-left: 39px;
+  }
+
   .link-8 {
-    flex: 1;
+    width: 100%;
     align-self: center;
     text-align: center;
     margin-top: 24px;
+    margin-left: 0;
     font-size: 14px;
     text-align: center;
   }
   .link-9 {
-    flex: 1;
+    width: 100%;
     align-self: center;
     margin-top: 24px;
     margin-right: 0;
