@@ -27,6 +27,8 @@
 }
 
 .welcome-container {
+  padding-left: 207px;
+  padding-right: 207px;
   margin-top: 96px;
   color: #4c4c4c;
   font-size: 96px;
@@ -743,6 +745,8 @@
 @media screen and (max-width: 991px ) {
   .welcome-container {
     font-size: 48px;
+    padding-left: 54px;
+    padding-right: 54px;
   }
   .button.cta {
     margin-top: 48px;
@@ -1091,6 +1095,8 @@
 @media screen and (max-width: 767px) {
   .welcome-container {
     line-height: 64px;
+    padding-left: 54px;
+    padding-right: 54px;
   }
   .button.cta {
     margin-top: 32px;
@@ -1276,6 +1282,8 @@
     margin-top: 64px;
     font-size: 32px;
     line-height: 41px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .button.cta {
     width: 216px;
